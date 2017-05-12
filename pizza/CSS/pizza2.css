@@ -1,0 +1,200 @@
+
+/*TITLE PIECES*/
+#titleMain {
+	margin: 0% auto;
+	width: 800px;
+	border-radius: 25px;
+	padding: 100px 0px;
+}
+
+#titleMain>h1 {
+	font-family: Pacifico;
+	font-size: 75px;
+	color: red;
+	text-shadow: 1.5px 1.5px 5px white;
+	margin: -2% 0 0 auto;
+	text-align: center;
+}
+/*TITLE PIECES*/
+
+/*MENU PIECES */
+#frmMenu {
+	margin: 0% auto;
+	width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: columns;
+    justify-content: flex-start;
+    align-items: stretch;
+	border-radius: 25px;
+}
+
+.menu { 
+	flex: 180px;
+	min-width: 0;
+	border: 2px solid red;
+	box-shadow: 0 0 0 3px #9C0000 ;
+	padding: 0 0 10px 0;
+}
+
+/* background color of cells*/
+.menu:nth-child(1n) {
+	background-color: white;
+	border-radius: 0px;
+}
+
+/* titles of cells*/
+.menu>H2 {
+	color: red;
+	padding: 0 0 0 20px;
+	margin: 0 auto;
+	background-color: #F2E923;
+	text-shadow: 1.5px 1.5px 5px white;
+}
+/*MENU PIECES */
+/*BUTTON PIECES*/
+.button {
+	cursor: pointer;
+	color: red;
+    font: 18px sans-serif;
+	background-color: white;
+	border: 2px solid red;
+}
+
+.button>p {
+	text-align: center;
+	font-weight: bold;
+}
+
+.button:hover {
+	font: 20px sans-serif;
+	font-weight: bold;
+	color: #000;
+	background-color: white;
+	box-shadow: 0 0 0 2px red;
+}
+
+.controls {
+	display: flex;
+    flex-direction: columns;
+    justify-content: space-between;
+	margin: 0 auto;
+	width: 400px;
+}
+
+.controls>.button {
+	flex: 1;
+}
+/*BUTTON PIECES*/
+
+/* CART PIECES */
+#cart {
+	opacity: 0;
+	margin: 15px auto;
+	width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+	background-color: white;
+	border: 2px solid red;
+	box-shadow: 0 0 0 2px red;
+}
+
+#title1 {
+	color: red;
+	flex: 1 250px;
+	height: 50px;
+	width: 250px;
+	padding: 0 0 0px 10px;
+	background-color: #F2E923;	
+	text-shadow: 1.5px 1.5px 5px white;}
+
+#subTotal {
+	color: red;
+	flex: 1 250px;
+	height: 50px;
+	width: 250px;
+	padding: 0 0 0px 10px;
+	background-color: #F2E923;	
+	text-shadow: 1.5px 1.5px 5px white;
+}
+
+.ordered {
+	color: red;
+	flex: 1 250px;
+	height: 50px;
+	width: 250px;
+	padding: 0 0 0px 10px;
+	background-color: #F2E923;
+	text-shadow: 1.5px 1.5px 5px white;
+}
+
+#sizeReturn {
+	font-size: 13px;
+	flex: 1 150px;
+	padding: 1px 0 10px 10px;
+	width: 150px;
+	border-radius: 0 0 0 0;
+}
+
+#meatReturn {
+	font-size: 13px;
+	flex: 1 150px;
+	padding: 1px 0 10px 10px;
+	width: 150px;
+	border-radius: 0 0 0 0;
+}
+
+#vegReturn {
+	font-size: 13px;
+	flex: 1 150px;
+	padding: 1px 0 10px 10px;
+	width: 150px;
+	border-radius: 0 0 0 0;
+}
+
+#cheeseReturn {
+font-size: 13px;
+	flex: 1 150px;
+	padding: 1px 0 10px 10px;
+	width: 150px;
+	border-radius: 0 0 0 0;
+}
+
+#crustReturn {
+	font-size: 13px;
+	flex: 1 150px;
+	padding: 1px 0 10px 10px;
+	width: 150px;
+	border-radius: 0 0 0 0;
+}
+
+#showText1 {
+	font-size: 13px;
+	flex: 1 150px;
+	padding: 1px 0 10px 10px;
+	width: 150px;
+	border-radius: 0 0 0 0;
+}
+
+#totalPrice1{
+	color: red;
+	flex: 1 250px;
+	height: 50px;
+	width: 250px;
+	padding: 0 0 0px 10px;
+	background-color: #F2E923;		
+	text-shadow: 1.5px 1.5px 5px white;
+}
+
+#totalPrice2 {
+	text-align:left;
+	font-size: 30px;
+	color: red;
+	padding: 1px 0 10px 10px;
+	width: 150px;
+	border-radius: 0 0 0 0;
+}
+
+/* CART PIECES */	
