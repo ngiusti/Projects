@@ -12,7 +12,7 @@ dest = 'C:/Users/Nicholas/Desktop/1/'
 files = os.listdir(source)
 
 for i in files:
-    if time.ctime(os.path.getmtime(source)) >= time.ctime(past):
+    if time.ctime(os.path.getmtime(source + i)) >= time.ctime(past): # added + i to identify the folder. 
         shutil.move(source + i, dest)
         print ("Files have been transfered")
     else:
